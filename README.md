@@ -2,9 +2,11 @@
 
 
 Assumptions -
-1. The JSON, CSV and XML files will be present in the given locations.
+1. We need to provide the input folder location (double backslash separated in case of a Windows machine) and relevant method arguments to test/run these programs. 
 
-2. The format of all these files will be valid and aligned with the way communicated in the questions. If required, extra steps can be added to ensure that the format/schema of the files are in alignment with the requirement.
+2. The JSON, CSV and XML files will be present in the given locations.
+
+3. The format of all these files will be valid and aligned with the way communicated in the questions. If required, extra steps can be added to ensure that the format/schema of the files are in alignment with the requirement.
 
 4. I have used naming conventions of naming methods and variables etc with lowercase words separated by underscores.
 
