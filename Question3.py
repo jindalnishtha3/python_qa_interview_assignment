@@ -55,11 +55,12 @@ def get_non_successful_endpoints():
                     label_value = row[label_to_index['label']]
                     response_message_value = row[label_to_index['responseMessage']]
                     failure_message_value = row[label_to_index['failureMessage']]
-                    print(label_value + ',' + 
-                        str(response_code_value) + ',' + 
-                        response_message_value + ',' + 
-                        failure_message_value + ',' + 
-                        timestamp_human_readable)
+                    print('{},{},{},{},{}'.format(
+                        label_value, 
+                        str(response_code_value), 
+                        response_message_value, 
+                        failure_message_value, 
+                        timestamp_human_readable))
     except Exception as e:
         print(e)
                 
